@@ -23,7 +23,7 @@ struct AnimationsPracticeView: View {
                     VStack(alignment: .leading, spacing: 6) {
                         Text("scaleEffect")
                             .font(.headline)
-
+                            .fontWeight(.bold)
                         Image(systemName: "star.fill")
                             .font(.largeTitle)
                           
